@@ -6,6 +6,11 @@
             "LaravelGame\\AGroup1\\": "src/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "LaravelGame\\AGroup1\\Tests\\": "tests/"
+        }
+    },
     "authors": [
         {
             "name": "SeryVathana",
@@ -13,5 +18,7 @@
         }
     ],
     "minimum-stability": "stable",
-    "require": {}
+    "require": {
+        "php": "^8.0"
+    }
 }
