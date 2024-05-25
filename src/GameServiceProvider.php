@@ -1,6 +1,6 @@
 <?php
 
-namespace YourVendorName\YourPackageName;
+namespace LaravelGame\AGroup1;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -15,17 +15,17 @@ class GameServiceProvider extends ServiceProvider
     {
         // Publish configuration file
         $this->publishes([
-            __DIR__.'/../config/game-a-group-1.php' => config_path('game-a-group-1.php'),
+            __DIR__ . '/../config/game-a-group-1.php' => config_path('game-a-group-1.php'),
         ], 'config');
 
         // Load routes
-        $this->loadRoutesFrom(__DIR__.'/../routes/web.php');
+        $this->loadRoutesFrom(__DIR__ . '/../routes/web.php');
 
         // Load views
-        $this->loadViewsFrom(__DIR__.'/../resources/views', 'game-a-group-1');
+        $this->loadViewsFrom(__DIR__ . '/../resources/views', 'game-a-group-1');
 
         // Load migrations
-        $this->loadMigrationsFrom(__DIR__.'/../database/migrations');
+        $this->loadMigrationsFrom(__DIR__ . '/../database/migrations');
     }
 
     /**
@@ -37,7 +37,8 @@ class GameServiceProvider extends ServiceProvider
     {
         // Merge configuration
         $this->mergeConfigFrom(
-            __DIR__.'/../config/game-a-group-1.php', 'game-a-group-1'
+            __DIR__ . '/../config/game-a-group-1.php',
+            'game-a-group-1'
         );
     }
 }

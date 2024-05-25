@@ -24,7 +24,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "laravel-game\\a-group-1\\GameServiceProvider"
+                "LaravelGame\\AGroup1\\GameServiceProvider"
             ]
         }
     }
