@@ -37,7 +37,7 @@ class GameServiceProvider extends ServiceProvider
     {
         // Merge configuration
         $this->mergeConfigFrom(
-            __DIR__ . '/../config/game-a-group-1.php',
+            __DIR__ . './config/game-a-group-1.php',
             'game-a-group-1'
         );
     }
