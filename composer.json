@@ -12,5 +12,6 @@
             "email": "yooseryvathana@gmail.com"
         }
     ],
+    "minimum-stability": "dev",
     "require": {}
 }
