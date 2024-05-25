@@ -1,9 +1,9 @@
 {
-    "name": "game/a-group-1",
+    "name": "laravel-game/a-group-1",
     "type": "library",
     "autoload": {
         "psr-4": {
-            "Game\\AGroup1\\": "src/"
+            "LaravelGame\\AGroup1\\": "src/"
         }
     },
     "authors": [
